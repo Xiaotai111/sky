@@ -9,5 +9,10 @@ sky:
   alioss:
     endpoint: oss-cn-beijing.aliyuncs.com
     access-key-id: LTAI5tCXnRJawfES9epxm4LJ
+<<<<<<< HEAD
     access-key-secret:
     bucket-name: web-xiaotai
+=======
+    access-key-secret: ************************
+    bucket-name: web-xiaotai
+>>>>>>> 86a122074e271193ddb9ddec383c26582a4673ff

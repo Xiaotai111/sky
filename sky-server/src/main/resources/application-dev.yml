@@ -9,7 +9,7 @@ sky:
   alioss:
     endpoint: oss-cn-beijing.aliyuncs.com
     access-key-id: LTAI5tCXnRJawfES9epxm4LJ
-    access-key-secret:
+    access-key-secret: ZUkdAW8ruv5AZtkjSgQCwZjX67WoNI
     bucket-name: web-xiaotai
   redis:
     host: localhost
@@ -18,4 +18,4 @@ sky:
     database: 10
   wechat:
     appid: wx608d6828774206f5
-    secret: 
+    secret: 6a69674b04644c1d3b9d99461fe83732

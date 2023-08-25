@@ -110,4 +110,5 @@ public class DishController {
         dishes = dishService.list(categoryId);
         return Result.success(dishes);
     }
+
 }

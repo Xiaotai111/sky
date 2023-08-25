@@ -19,6 +19,11 @@ import org.springframework.context.annotation.Configuration;
 @Slf4j
 public class OssConfiguration {
 
+    /**
+     * 配置类，创建一个bean对象aliOssUtil，在commoncontroller里注入，这里就是初始化数据。
+     * @param aliOssProperties
+     * @return
+     */
     @Bean
     @ConditionalOnMissingBean
     public AliOssUtil aliOssUtil(AliOssProperties aliOssProperties){

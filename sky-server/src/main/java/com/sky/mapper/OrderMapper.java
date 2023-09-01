@@ -59,4 +59,26 @@ public interface OrderMapper {
      */
     @Select("select * from orders where status = #{status} and order_time < #{time}")
     List<Orders> getByStatusAndOrderTimeTL(Integer status, LocalDateTime time);
+
+    /**
+     * 计算营销额
+     * @param mp
+     * @return
+     */
+    Double sumByMap(Map mp);
+
+    /**
+     * 根据时间区间和状态计算订单数
+     * @param mp
+     * @return
+     */
+    Integer countByMap(Map mp);
+
+    /**
+     * 获得销量top10数据
+     * @param begin
+     * @param end
+     * @return
+     */
+    List<GoodsSalesDTO> getSalesTop10(LocalDateTime begin, LocalDateTime end);
 }

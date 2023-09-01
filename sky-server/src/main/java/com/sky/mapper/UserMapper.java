@@ -44,5 +44,5 @@ public interface UserMapper {
      * @param mp
      * @return
      */
-    Double countByMap(Map mp);
+    Integer countByMap(Map mp);
 }
